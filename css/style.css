@@ -1,0 +1,126 @@
+		#całość {
+			width:80%;
+			max-width: 81em;
+			margin: 0 auto;
+			background: #DBF9EF;
+		}
+		
+		#całość h2 {
+			padding: 0 2em 0 1.7em;
+		}
+		
+		.flex-container {
+			display: inline-flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.flex-item {
+			margin: auto;
+			padding: 2em;
+			max-width: 22em;
+			background:	#DBF9EF;
+			border-radius: .4em;
+			align-items: stretch;
+			<!--border: 1px solid #FFF;-->
+		}
+		
+		header {
+			padding: .2em 2em .2em 2em;
+			background-color: #459078;
+			color:#350927;
+		}
+		
+		p.serif {
+			font-family: "Times New Roman", Times, serif;
+		}
+		
+		p.caps {
+			font-weight: bold;
+			font-variant: small-caps;
+			color: #B30D7F;
+			background-color:#DBF9EF;
+			padding: 0.5em 2em;
+			margin: -1em 0 0.5em 0;
+			line-height: 1;
+			border-radius: .1em;
+			display:inline-block;
+		}
+		
+		footer {
+			padding: .2em 2em .2em 2em;
+			background-color: #459078;
+			text-align: center;
+			color:#350927;
+		}
+		footer p a {
+			color: #340926;
+			text-decoration: none;
+			font-family: "Times New Roman", Times, serif;
+		}
+		
+		
+		#o_mnie {
+			display: inline-flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		#edukacja, #hobby {
+			color: #FDBC17;
+		}
+		
+		#hobby {
+			padding: 8em 0 0 0;
+		}
+		
+		section p {
+			padding: 3.5em 0 2em 1em;
+		}
+		
+		#hobby ul {
+			list-style-type:square;
+		}
+		
+		#hobby li a {
+			color: #340926;
+			text-decoration: none;
+			font-variant: small-caps;
+			font-size: 1.3em;
+		}
+		
+		#hobby li a:hover {
+			color: #B30D7F;
+		}
+		
+		.btn-group {
+			margin:0 auto;
+		} 
+		
+		.buttonA, .button {
+			background-color: #459078;
+			border: 0.1em solid white;
+			color: #FDBC17;
+			padding: 1em 2em;
+			cursor: pointer; 
+			text-align: center;
+			text-decoration: none;
+			display: block;
+			font-size: 1em;
+			margin: .25em .128em;
+			border-radius: 1em;
+			width: 60%;
+			font-family: "Times New Roman", Times, serif;
+		}
+		
+		.button {
+			color:#350927;
+			opacity: 0.6;
+			cursor: default;
+		}
+		
+		.buttonA:hover {
+			background-color: #B30D7F;
+			box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+		}
